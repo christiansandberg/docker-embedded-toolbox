@@ -22,13 +22,13 @@ One time build:
 
 ```sh
 $ cd /my/folder/with/sources
-$ docker run --rm -v $(pwd):/work embedded-toolbox scons
+$ docker run --rm -v $(pwd):/work christiansandberg/embedded-toolbox scons
 ```
 
 Stay in containers shell to continue building:
 
 ```sh
 $ cd /my/folder/with/sources
-$ docker run -it -v $(pwd):/work embedded-toolbox
+$ docker run -it -v $(pwd):/work christiansandberg/embedded-toolbox
 ```
 
